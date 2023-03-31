@@ -24,3 +24,18 @@ git add """": añadimos un archivo en concreto al stack.
 git add (.): Añade TODOS los archivos al stack.
 git rm """": Remueve algun archivo del stack.
 git rm --cahed: remueve todos los archivos en el stack (cached significa que están en la memoria RAM)
+git commit: Graba los cambios hechos al archivo dejando una dirección de commit y por quien fue hecho ese cambio.
+git commit -m "//////": Deja un mensaje para el commit hecho.
+git commit -am "////////": Añade un archivo y adjunta un mensaje al mismo tiempo.
+
+UN COMMIT NO SE PUEDE MANDAR SIN UN MENSAJE.
+Si mandamos un "git commit" tal cual, nos abrirá un edit de codigo en base texto llamado VIM.
+presionamos ESC + I y entra en modo "INSERTAR", ponemos el mensaje y para grabarlo/salir presionamos ESC + SHIFT + Z + Z.
+
+Configuración y Configuración de Usuario:
+git config: Muestra la lista de Configuraciones.
+git config --list: Muestra Configuración del Usuario.
+git config --global "": Configura un apartado en concreto.
+git config --global user.name "///////": Cambia el nombre del usuario.
+git config --global user.email "///////": Cambia el correo del usuario. 
+ES NECESARIO CONFIGURAR EL NOMBRE Y CORREO PARA PODER HACER COMMIT.
