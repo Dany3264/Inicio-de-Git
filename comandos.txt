@@ -15,3 +15,12 @@ history: Muestra todos los comandos que hemos introducido enlistads con un núme
 !###: reutilizamos el comando listado en history por medio de su numero de uso.
 --help: Muestra todas las formas de utilizar X comando.
 rm: Remueve el archivo de forma permanente.
+
+Lista de comandos GIT repository:
+git: Al usarlo al inicio de el input, nos referimos diretamente a operaciones en el repository.
+git init: Crea el repository en la carpeta, crea una carpeta oculta llamada .git/ (puede verse si se creo correctamente con ls -al)
+git status: Muestra todos los archivos que han sido modificados y los cuales no estan agregados al stack.
+git add """": añadimos un archivo en concreto al stack.
+git add (.): Añade TODOS los archivos al stack.
+git rm """": Remueve algun archivo del stack.
+git rm --cahed: remueve todos los archivos en el stack (cached significa que están en la memoria RAM)
