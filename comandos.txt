@@ -1,3 +1,5 @@
+DOCUMENTACIÓN DE GIT COMPLETA: https://git-scm.com/docs/
+
 Lista de comandos GIT:
 
 PWD: Muestra la carpeta en la que estamos actualmente.
@@ -27,6 +29,8 @@ git rm --cahed: remueve todos los archivos en el stack (cached significa que est
 git commit: Graba los cambios hechos al archivo dejando una dirección de commit y por quien fue hecho ese cambio.
 git commit -m "//////": Deja un mensaje para el commit hecho.
 git commit -am "////////": Añade un archivo y adjunta un mensaje al mismo tiempo.
+git branch "///////////": Crea una rama.
+git diff "//////" "//////": muestra la diferencia, que fue agregado/eliminado entre uno y otro commit. 
 
 UN COMMIT NO SE PUEDE MANDAR SIN UN MENSAJE.
 Si mandamos un "git commit" tal cual, nos abrirá un edit de codigo en base texto llamado VIM.
@@ -39,3 +43,8 @@ git config --global "": Configura un apartado en concreto.
 git config --global user.name "///////": Cambia el nombre del usuario.
 git config --global user.email "///////": Cambia el correo del usuario. 
 ES NECESARIO CONFIGURAR EL NOMBRE Y CORREO PARA PODER HACER COMMIT.
+
+CHECKOUTS:
+
+git checkout "nombre de branch": Cambia de rama.
+
