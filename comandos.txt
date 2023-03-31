@@ -1,0 +1,17 @@
+Lista de comandos GIT:
+
+PWD: Muestra la carpeta en la que estamos actualmente.
+CD (Change directory): Nos lleva a una carpeta específica.
+/: Home.
+ls: Muestra los archivos de la carpeta en la que estamos.
+ls -l: Muestra todos los archivos en forma de lista.
+ls -al: Muestra todos los archivos en forma de lista incluyendo los ocultos.
+(..): regresa a la carpeta anterior.
+mkdir: Crea una carpeta.
+touch: Crea un archivo de texto simple (en la carpeta que nos encontremos)
+cat: Muestra el contenido del archivo de texto.
+clear: Limpia la terminal.
+history: Muestra todos los comandos que hemos introducido enlistads con un número.
+!###: reutilizamos el comando listado en history por medio de su numero de uso.
+--help: Muestra todas las formas de utilizar X comando.
+rm: Remueve el archivo de forma permanente.
